@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  font-family: cursive;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+}
+header {
+  display: block;
+  position: relative;
+  background-color: rgb(221, 196, 255);
+  height: 4rem;
+  width: 100%;
+}
+footer {
+  display: block;
+  position: relative;
+  background-color: rgb(179, 204, 242);
+  height: 4rem;
+  width: 100%;
+}
+/* @media screen and (min-width:480px) { 
+    header {
+        display: flex;
+    }
+} 
+*/
+.container_1 {
+  display: inline;
+}
+.container_1 img {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  top: 0.5rem;
+  left: 1rem;
+}
+.container_1 h1 {
+  display: inline;
+  margin-left: 1.5rem;
+  position: relative;
+  bottom: 0.3rem;
+}
+.container_2 {
+  position: relative;
+  float: right;
+}
+
+.container_2 ul {
+  float: right;
+}
+.container_2 li {
+  display: inline;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+.container_2 a {
+  font-size: large;
+  text-decoration: none;
+  color: black;
+}
+
+.active_class {
+  border-bottom: 1.5px solid black;
+}
+.container_2 a:hover {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+main {
+  background: url(./images/background.png);
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.aside_logo {
+    height: 15rem;
+    width: 20rem;
+}

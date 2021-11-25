@@ -1,0 +1,202 @@
+
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    font-family: cursive;
+  }
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+  }
+  header {
+    display: block;
+    position: relative;
+    background-color: rgb(221, 196, 255);
+    height: 4rem;
+    width: 100%;
+  }
+  footer {
+    display: block;
+    position: relative;
+    background-color: rgb(207, 207, 223);
+    height: 4rem;
+    width: 100%;
+  }
+  /* @media screen and (min-width:480px) { 
+      header {
+          display: flex;
+      }
+  } 
+  */
+  .container_1 {
+    display: inline;
+  }
+  .container_1 img {
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    top: 0.5rem;
+    left: 1rem;
+  }
+  .container_1 h1 {
+    display: inline;
+    margin-left: 1.5rem;
+    position: relative;
+    bottom: 0.3rem;
+  }
+  .container_2 {
+    position: relative;
+    float: right;
+  }
+  
+  .container_2 ul {
+    float: right;
+  }
+  .container_2 li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 2rem;
+  }
+  .container_2 a {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .active_class {
+    border-bottom: 1.5px solid black;
+  }
+  .container_2 a:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+  }
+  main {
+    background: url(../images/background/background.png);
+    height: min-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  
+  .aside_logo {
+    height: 30rem;
+    width: 25rem;
+    margin: 1.5rem;
+    position: relative;
+    top: 2rem;
+    right: 7rem;
+    padding-right: 1.5rem;
+  }
+  article {
+    padding-left: 1.5rem;
+  }
+  article h2 {
+    font-size: 2.5rem;
+  }
+  article img {
+    height: 25rem;
+    width: 40rem;
+    position: relative;
+  }
+  article p {
+    font-size: larger;
+  }
+  #contact_logo {
+    height: 20rem;
+    width: 30rem;
+    position: relative;
+  }
+  .contact-page-text {
+    display: inline;
+  }
+  .contact-page-text {
+    padding: 2em;
+    margin-bottom: 3rem;
+  }
+  .contact-page-text h1 {
+    font-size: 4rem;
+  }
+  .contact-page-text p {
+    font-size: 25px;
+    margin: 1rem 0;
+    padding: 0;
+  }
+  #contact-img {
+    height: 30rem;
+    width: 25rem;
+    position: relative;
+    right: 7rem;
+    margin-bottom: 3rem;
+  }
+  
+  .columns {
+    display: flex;
+    text-align: right;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .food-item {
+    width: 220px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+  }
+  .food-item img {
+    width: 100%;
+    height: 50%;
+  }
+  .food-item .title {
+    font-weight: bold;
+    text-align: left;
+  }
+  .food-item .columns {
+    width: 100%;
+  }
+  .food-item .price {
+    text-align: right;
+  }
+  .food-item .columns div {
+    width: 50%;
+  }
+  .food-item button {
+    background-color: #685757;
+    padding: 10px;
+    border: solid 1px #f6aeae;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 10pt (13.3333px);
+    font-weight: normal;
+    font-size: medium;
+  }
+  .top-menu{
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 4rem;
+  }
+  .menu-h1{
+      font-size: 1000;
+  }
+  .menu-filter{
+      float: right;
+      position: relative;
+      top: 1rem;
+  }
+  .menu-filter label {
+      font-size: 27px;
+      padding-right: 1em;
+      font-weight: 600;
+  }
+  .menu-filter select {
+      border: solid 3px #463d3d;
+      border-radius: 7px;
+      font-size: larger;
+  }

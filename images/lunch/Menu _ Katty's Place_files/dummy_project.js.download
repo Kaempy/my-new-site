@@ -1,0 +1,155 @@
+// let items =[
+//     {id:1, title:'franklin'},
+//     {id:2, title:'milito'},
+// ]
+
+// let lists = items.map(item=>{
+//     return(
+//         `<h5>${item.title}</h5>`
+//     )
+// });
+
+// console.log(lists);
+// document.getElementById('menu').innerHTML=lists
+
+const data = [
+  {
+    breakfast: [
+      {
+        title: "Egg Benedict",
+        price: 13.45,
+        desc: "Our famous egg benedict",
+        src: "../images/breakfast/Eggs_Benedict.jpg",
+      },
+      {
+        title: "Vegan Yogurt",
+        price: 12.95,
+        desc: "Our famous vegan yogurt",
+        src: "../images/breakfast/Vegan_Yogurt.jpg",
+      },
+      {
+        title: "Waffles",
+        price: 10.0,
+        desc: "Our famous waffles",
+        src: "../images/breakfast/Waffles_with_Strawberries.jpg",
+      },
+      {
+        title: "Cereal",
+        price: 15.95,
+        desc: "A summer classic cereal!",
+        src: "../images/breakfast/breakfast_cereal.jpg",
+      },
+      {
+        title: "Yam 'n' Egg",
+        price: 19.2,
+        desc: "Our favorite Yam 'n' Egg!",
+        src: "../images/breakfast/yam_'n'_egg.jpg",
+      },
+    ],
+  },
+  {
+    lunch: [
+      {
+        title: "Abula Special",
+        price: 25.2,
+        desc: "Classic African Continental Dish!",
+        src: "../images/lunch/abula_special.jpg",
+      },
+      {
+        title: "Abacha",
+        price: 23.2,
+        desc: "Classic African Continental Dish!",
+        src: "../images/lunch/abacha.webp",
+      },
+      {
+        title: "Ewa Agoyi",
+        price: 19.8,
+        desc: "Classic African Continental Dish!",
+        src: "../images/lunch/ewa_agoyin_nd_bread.webp",
+      },
+      {
+        title: "Ikokore",
+        price: 19.8,
+        desc: "Classic African Continental Dish!",
+        src: "../images/lunch/water_yam_pottage.jpg",
+      },
+      {
+        title: "Semo 'n' Ogbono",
+        price: 23.2,
+        desc: "Classic meal!",
+        src: "../images/lunch/semo_nd_ogbono.jpg",
+      },
+    ],
+  },
+  {
+    dinner: [
+      {
+        title: "Chic 'n' Chips",
+        price: 29.6,
+        desc: "Tasty Chicken 'n' Chips!",
+        src: "../images/dinner/chicken_n_chips.jpg",
+      },
+      {
+        title: "Pizza",
+        price: 31.0,
+        desc: "Classic Pizza!",
+        src: "../images/dinner/pizza.jpg",
+      },
+      {
+        title: "Dinner Salad",
+        price: 30.2,
+        desc: "For a Classic Dinner!",
+        src: "../images/dinner/salad_for_dinner.jpg",
+      },
+      {
+        title: "Jollof Rice",
+        price: 32.3,
+        desc: "Delicious meal for U!",
+        src: "../images/dinner/jollof_rice.jpg",
+      },
+      {
+        title: "Spaghetti",
+        price: 33.2,
+        desc: "Yummy Pasta!",
+        src: "../images/dinner/spaghetti.jpg",
+      },
+    ],
+  },
+];
+
+// const foods = data.map((food) => `<div>${food.breakfast.title}</div>`);
+// console.log(foods);
+
+// document.getElementById("breakfast").querySelectorAll("h3").innerHTML = foods;
+let arr = [];
+const [{ breakfast }, { lunch }, { dinner }] = data;
+console.log("dinner ", dinner);
+let food_items = [...breakfast, ...lunch, ...dinner];
+
+// let food_items = data[0].breakfast;
+
+console.log(food_items);
+// let item_title = document.createElement("h2").innerText ="holla";
+// console.log(item_title)
+for (let i = 0; i < food_items.length; i++) {
+  let item_img = document.createElement("img");
+  item_img.setAttribute("src", food_items[i].src);
+  item_img.style.height='50px';
+  item_img.style.width='100px';
+  let item_title = document.getElementById("title");
+  item_title.innerText = food_items[i].title;
+  let item_price = document.getElementById("price");
+  item_price.innerText = food_items[i].price;
+  let item_desc = document.getElementById("desc");
+  item_desc.innerText = food_items[i].desc;
+  let wat = document.createElement("hr");
+  // (width:'200px')
+  document.getElementById("food-item").appendChild(item_img);
+  document.getElementById("columns").appendChild(item_title);
+  document.getElementById("columns").appendChild(item_price);
+  document.getElementById("food-item").appendChild(item_desc);
+  document.getElementById("food-item").appendChild(wat);
+}
+
+// let car = document.getElementById("food-item").innerHTML="hello";
+// document.createElement("div")

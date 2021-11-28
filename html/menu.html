@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Katty's Place</title>
+    <link rel="stylesheet" href="../css/dummy_project.css" />
+    <script type='text/javascript' src="../dummy_project.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container_1">
+            <img src="../images/logo/logo.png" alt="page logo" />
+            <h1>Katty's Place</h1>
+        </div>
+        <div class="container_2">
+            <nav role="navigation">
+                <ul class="list">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./menu.html" class="active_class">Menu</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="top-menu">
+                <h1 class="menu-h1">Food Menu</h1>
+                <form action="">
+                    <div class="menu-filter">
+                        <label for="food-menu">Food Menu List</label>
+                        <select name="food-menu" id="food-menu" class='select' onchange="handleSelectChange(event)">
+                            <option value="All" id="select">select</option>
+                            <option value="All" id="all">All</option>
+                            <option value="Breakfast" id="breakfast">Breakfast</option>
+                            <option value="Lunch" id="lunch">Lunch</option>
+                            <option value="Dinner" id="dinner">Dinner</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <section id="grid-container" class="grid-container">
+
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container_1">
+            <img src="../images/logo/logo.png" alt="page logo" id="page_logo" />
+            <h1>Katty's Place</h1>
+        </div>
+        <div class="container_2">
+            <nav aria-label="navigate">
+                <ul class="list">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./menu.html" class="active_class">Menu</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>

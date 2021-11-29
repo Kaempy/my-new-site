@@ -1,0 +1,83 @@
+{
+  "breakfast": [
+    {
+      "title": "Egg Benedict",
+      "price": 13.45,
+      "desc": "Our famous egg benedict"
+    },
+    {
+      "title": "Vegan Yogurt",
+      "price": 12.95,
+      "desc": "Our famous vegan yogurt"
+    },
+    {
+      "title": "Waffles",
+      "price": 10.0,
+      "desc": "Our famous waffles"
+    },
+    {
+      "title": "Cereal",
+      "price": 15.95,
+      "desc": "A summer classic cereal!"
+    },
+    {
+      "title": "Yam 'n' Egg",
+      "price": 19.2,
+      "desc": "Our favorite Yam 'n' Egg!"
+    }
+  ],
+  "lunch": [
+    {
+      "title": "Abula Special",
+      "price": 25.2,
+      "desc": "Classic African Continental Dish!"
+    },
+    {
+      "title": "Abacha",
+      "price": 23.2,
+      "desc": "Classic African Continental Dish!"
+    },
+    {
+      "title": "Ewa Agoyi",
+      "price": 19.8,
+      "desc": "Classic African Continental Dish!"
+    },
+    {
+      "title": "Ikokore",
+      "price": 19.8,
+      "desc": "Classic African Continental Dish!"
+    },
+    {
+      "title": "Semo 'n' Ogbono",
+      "price": 23.2,
+      "desc": "Classic meal!"
+    }
+  ],
+  "dinner": [
+    {
+      "title": "Chic 'n' Chips",
+      "price": 29.6,
+      "desc": "Tasty Chicken 'n' Chips!"
+    },
+    {
+      "title": "Pizza",
+      "price": 31.0,
+      "desc": "Classic Pizza!"
+    },
+    {
+      "title": "Dinner Salad",
+      "price": 30.2,
+      "desc": "For a Classic Dinner!"
+    },
+    {
+      "title": "Jollof Rice",
+      "price": 32.3,
+      "desc": "Delicious meal for U!"
+    },
+    {
+      "title": "Spaghetti",
+      "price": 33.2,
+      "desc": "Yummy Pasta!"
+    }
+  ]
+}

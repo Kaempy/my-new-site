@@ -185,15 +185,15 @@ function addChildNodes(foodItems) {
     foodItem.appendChild(btn);
 
     document.getElementById("grid-container").appendChild(foodItem);
-    document.getElementById("grid-container").appendChild(foodItem);
-    document.getElementById("grid-container").appendChild(foodItem);
-    document.getElementById("grid-container").appendChild(foodItem);
+    // document.getElementById("grid-container").appendChild(foodItem);
+    // document.getElementById("grid-container").appendChild(foodItem);
+    // document.getElementById("grid-container").appendChild(foodItem);
   }
 }
 
 function handleSelectChange(event) {
-  var selectElement = event.target;
-  var value = selectElement.value;
+  //var selectElement = event.target;
+  var value = event.target.value;
 
   if (value.toLowerCase() === "all") {
     const [{ breakfast }, { lunch }, { dinner }] = data;
